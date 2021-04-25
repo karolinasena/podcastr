@@ -1,3 +1,21 @@
+.episodeContainer {
+  overflow-y: scroll;
+  height: calc(100vh - 6.5rem);
+
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  &::-webkit-scrollbar-track {
+    background: var(--white);
+  }
+  
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--gray-200);
+    border-radius: 3px;
+  }
+}
+
 .episode {
   max-width: 45rem;
   padding: 3rem 2rem;
