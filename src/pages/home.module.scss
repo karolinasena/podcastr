@@ -7,6 +7,19 @@
     margin-top: 3rem;
     margin-bottom: 1.5rem;
   }
+
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  &::-webkit-scrollbar-track {
+    background: var(--white);
+  }
+  
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--gray-200);
+    border-radius: 3px;
+  }
 }
 
 .latestEpisodes {
